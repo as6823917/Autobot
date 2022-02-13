@@ -101,6 +101,11 @@
             "value": "",
             "required": true
         },
+        "TIME": {
+            "description": "Time In Seconds",
+            "value": "",
+            "required": false
+        },
         "ADMIN_ID": {
             "description": "Control BroadCast",
             "value": "",
