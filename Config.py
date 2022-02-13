@@ -10,12 +10,7 @@ API_ID = int(environ['API_ID'])
 API_HASH = environ['API_HASH']
 BOT_TOKEN = environ['BOT_TOKEN']
 TIME = environ.get("TIME")
-GROUPS = []
-for grp in environ.get("GROUPS").split():
-    GROUPS.append(int(grp))
-ADMINS = []
-for usr in environ.get("ADMINS").split():
-    ADMINS.append(int(usr))
+
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
